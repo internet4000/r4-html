@@ -11,5 +11,5 @@ Then, you can either:
 
 To generate the pages from JSON with Eleventy, we have:
 
-1. `_data/channels.js` that serializes `raw-channels.json` 
+1. `_data/channels.js` that serializes `raw-channels.json`. Available as `{{channels}}` in templates
 2. `channels.liquid` that uses the Paginate feature to generate the pages
