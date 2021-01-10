@@ -1,0 +1,23 @@
+<!doctyope html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>R411</title>
+</head>
+<body>
+
+<h1>Hello {{ stargazers.count }}</h1>
+<p>We have {{channels.length}} channels. Use cmd/ctrl+f to search in your browser.</p>
+<ul>
+	{%- for channel in channels %}
+	<li>
+		<a href="/{{channel.slug}}">
+			{{channel.title}}
+		</a>
+	</li>
+	{%- endfor %}
+</ul>
+
+</body>
+</html>

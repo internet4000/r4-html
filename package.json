@@ -1,0 +1,10 @@
+{
+  "name": "r411",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.11.1",
+    "@11ty/eleventy-cache-assets": "^2.0.4"
+  }
+}

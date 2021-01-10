@@ -1,0 +1,9 @@
+---
+pagination:
+    data: channels
+    size: 1
+    alias: channel
+permalink: "/{{ channel.slug }}/"
+---
+<script src="https://cdn.jsdelivr.net/npm/radio4000-player"></script>
+<radio4000-player channel-slug="{{channel.slug}}"></radio4000-player>
